@@ -10,9 +10,9 @@ This bash script will help in downloading Logs from AWS cloudwatch with Unix tim
 - clone this script into into local.
 - give execute permission to file with below command.
      
-  `chmod 775 cloudwatch_logs_download`
+  `chmod 775 cloudwatch-logs-download`
 - edit the script with appropriate option i.e - `log-group_name, start-time, end-time etc`
 - use below commands to run the scripts.
         
-   `bash cloudwatch_logs_download`
+   `bash cloudwatch-logs-download`
  - This will download the logs with Unix timestamp.
